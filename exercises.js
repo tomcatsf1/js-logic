@@ -28,8 +28,14 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *
  * The function will return true if the number passed into the function is equal to or greater than Hawaii's voting age. Console.log your result.
 */
-
-
+function canVote(age){
+  if(age => 18){
+    return true;
+  }else{
+    return false;
+  }
+}
+console.log("1. canVote", (19))
 /*
  * #2
  * Function - login
@@ -41,7 +47,12 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * The function will return the message: "Login Success!", if the string passed into the function is "test1234"
  * Console.log your result.
 */
-
+function login(password){
+  if(password === "test1234"){
+  return "Login Success!";
+ }
+}
+console.log(login("test1234"))
 
 /*
  * #3
@@ -55,8 +66,14 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * The function will return true if the first number is greater than the second.
  * Console.log your result.
 */
-
-
+function isGreaterThan(first, second){
+  if (first > second){
+    return true;
+  }else{
+    return false;
+  }
+}
+console.log(isGreaterThan(1, 5))
 
 /*
  * #4
@@ -68,9 +85,16 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  *
  * The function will return true if the value passed into the function is "true".
  * Console.log your result.
-*/
+// */
 
-
+function mustBeTrue(boo){
+  if (boo === true){
+  return true;
+}else{
+  return false;
+}
+}
+console.log("mustBeTrue: ", mustBeTrue(true));
 
 /*
  * #5
@@ -83,8 +107,12 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * The function will return the message "Word to Big Bird!", if the string passed into the function is a three-letter word. 
  * Console.log your result.
 */
-
-
+function bigBird(word){
+  if (word == 1){
+    return "Word to the Big Bird!"
+  }
+}
+console.log("bigBird: ", bigBird(1));
 
 /*
  * #6
@@ -315,9 +343,6 @@ Final Boss
 
 var phrase = "An apple a day keeps Alice feeling awesome!";
  
-  
-  
-
 
 
 
