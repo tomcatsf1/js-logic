@@ -126,7 +126,14 @@ console.log("bigBird: ", bigBird(1));
  * If the strings are equal, the function will return the message "You look mahvelous!" Otherwise, return the message: "I don't know who you are anymore." 
  * Console.log your result.
 */
-
+function isEqual(first, second){
+  if(first === second){
+    return "You look mahvelous!";
+  }else{
+    return "I don't know who you are anymore.";
+  }
+}
+console.log(isEqual("dope", "not dope"));
 
 /*
  * #7
@@ -140,7 +147,14 @@ console.log("bigBird: ", bigBird(1));
  * If the strings are not equal, the function will return the message "Opposites do attract." Otherwise, return the message: "Cause it's like you're my mirror." 
  * Console.log your result.
 */
-
+function notEqual(first, second){
+  if(first !== second){
+  return "Opposites do not attract";
+  }else{
+    return "Cause it's like you're my mirror"
+  }
+}
+console.log(notEqual("nutz", "nutz"))
 
 /*
  * #8
