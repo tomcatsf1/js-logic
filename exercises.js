@@ -232,7 +232,7 @@ console.log(evenStevens(2))
  * Console.log your result.
 */ 
 function daClub(cover, age){
-  if(cover, age >= 21){
+  if(cover, age && 21){
     return "Welcome to the Legends Lounge";
   }else{
     return "Check E Cheese is across the street";
@@ -252,7 +252,7 @@ console.log(daClub(20, 20))
  * Console.log your result.
 */ 
 function graduation(credits, grades){
-  if(credits >= 120 && grades >= 2.0){
+  if(credits >= 120 || grades >= 2.0){
     return "Congratulations on a job well done."
   }else{
     return "See you in summer school."
@@ -271,8 +271,16 @@ console.log(graduation(120, 2.0))
  * The function will return the message: "You are riding Honolulu's Rail.", if the number value is less than 50, otherwise it will return the message: "You are riding an Amtrak.", if the number value is less than 100, and return the message: "Now you ballin' in the Shinkansen!", if the number value is greater than or equal to 100.
  * Console.log your result.
 */ 
-
-
+function moneyTrain(speed){
+  if(speed < 50){
+    return "You are riding Honolulu's Rail.";
+  }else{ 
+    if(speed > 50);
+    return "You are riding an Amtrak";
+  }
+  
+}
+console.log(moneyTrain(51))
 /*
  * #14
  * Function - buyDoughnut
