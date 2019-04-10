@@ -231,8 +231,14 @@ console.log(evenStevens(2))
  * If BOTH values are 21 or over, the function will return the message: "Welcome to the Legends Lounge." Otherwise, it will return the message: "Chuck E Cheese is across the street."
  * Console.log your result.
 */ 
-
-
+function daClub(cover, age){
+  if(cover, age >= 21){
+    return "Welcome to the Legends Lounge";
+  }else{
+    return "Check E Cheese is across the street";
+}
+}
+console.log(daClub(20, 20))
 /*
  * #12
  * Function - graduation
@@ -245,8 +251,14 @@ console.log(evenStevens(2))
  * If EITHER the credits value is greater than or equal to 120 or the grades value is greater than or equal to 2.0, then the function will return the message: "Congratulations on a job well done." Otherwise, return the message: "See you in summer school."
  * Console.log your result.
 */ 
-
-
+function graduation(credits, grades){
+  if(credits >= 120 && grades >= 2.0){
+    return "Congratulations on a job well done."
+  }else{
+    return "See you in summer school."
+  }
+}
+console.log(graduation(120, 2.0))
 
 /*
  * #13
