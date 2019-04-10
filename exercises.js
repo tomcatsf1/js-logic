@@ -196,7 +196,7 @@ function dirty30(one, two, three){
   return false;
   }
 }
-console.log(dirty30(10, 10, 30))
+console.log(dirty30(10, 10, 2))
 
 /*
  * #10
@@ -209,8 +209,14 @@ console.log(dirty30(10, 10, 30))
  * The function will return true if the number passed in is an even integer, otherwise it will return false.
  * Console.log your result.
 */ 
-
-
+function evenStevens(num){
+  if(num %= 0){
+    return true;
+  }else{
+    return false;
+  }
+}
+console.log(evenStevens(2))
 
 
 /*
